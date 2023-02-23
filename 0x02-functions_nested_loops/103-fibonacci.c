@@ -21,7 +21,7 @@ int main(void)
 			break;
 
 		if (n3 % 2 == 0)
-			sum += n3g
+			sum += n3;
 
 		n1 = n2;
 		n2 = n3;
