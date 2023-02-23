@@ -2,7 +2,8 @@
 
 /**
  *  add - add two integers and return result
- *  @a and @b input values
+ *  @a: 1st input value
+ *  @b: 2nd input value
  *
  *  Return: result of a + b
  */
