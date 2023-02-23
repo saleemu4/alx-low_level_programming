@@ -23,7 +23,7 @@ int main(void)
 		n2 = n3;
 
 		if (i != 50)
-			putchar(',');
+			printf(", ");
 
 	}
 
