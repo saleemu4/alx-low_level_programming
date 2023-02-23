@@ -16,12 +16,12 @@ int main(void)
 	for (;;)
 	{
 		n3 =  n2 + n1;
-		
+
 		if (n3 > 4000000)
 			break;
 
 		if (n3 % 2 == 0)
-			sum += n3;
+			sum += n3g
 
 		n1 = n2;
 		n2 = n3;
