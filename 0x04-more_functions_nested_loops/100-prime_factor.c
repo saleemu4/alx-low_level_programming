@@ -10,11 +10,13 @@ int main(void)
 	long num = 612852475143;
 
 	i = 2;
-	while (i < (num / 2))
+	while (i != num)
 	{
 		if (num % i == 0)
 			num /= i;
+		else
+			i++;
 	}
-	printf("%ld\n", i);
+	printf("%ld\n", num);
 	return (0);
 }
