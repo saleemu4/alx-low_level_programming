@@ -11,10 +11,10 @@ int main(void)
 	long num = 612852475143;
 	
 	i = 2;
-	while (i < num)
+	while (i < (num / 2))
 	{
 		if (num % i == 0)
-			num = num / i;
+			num /= i;
 	}
 	printf("%ld\n", i);
 	return (0);
