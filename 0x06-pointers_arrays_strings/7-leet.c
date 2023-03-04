@@ -9,21 +9,17 @@
 char *leet(char *s)
 {
 	int i, j;
-	char ch[] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char ch[] = "OL?EA??T";
 
-	i = 0;
-	j = 0;
-	while (s[i])
+	for (i = 0; s[i]; i++)
 	{
-		while (j < 8)
+		for (j = 0; j < 8; j++)
 		{
 			if (s[i] == ch[j] || (s[i] - 32) == ch[j])
 			{
 				s[i] = j + '0';
 			}
-			j++;
 		}
-		i++;
 	}
 	return (s);
 }
