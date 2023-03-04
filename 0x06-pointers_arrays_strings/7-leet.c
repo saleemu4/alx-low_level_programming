@@ -9,15 +9,15 @@
 char *leet(char *s)
 {
 	int i, j;
-	char ch[] = "ol_ea__t";
+	char ch[] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	i = 0;
 	j = 0;
 	while (s[i])
 	{
-		while (ch[j])
+		while (j < 8)
 		{
-			if (s[i] == ch[j] || s[i] == (ch[j] - 32))
+			if (s[i] == ch[j] || (s[i] - 32) == ch[j])
 			{
 				s[i] = j + '0';
 			}
