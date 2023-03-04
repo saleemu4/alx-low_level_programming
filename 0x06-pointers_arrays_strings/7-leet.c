@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		while (ch[j])
 		{
-			if (s[i] == ch[j] || s[i] == (ch[j] -32))
+			if (s[i] == ch[j] || s[i] == (ch[j] - 32))
 			{
 				s[i] = j + '0';
 			}
