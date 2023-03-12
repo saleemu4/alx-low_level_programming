@@ -12,8 +12,8 @@ int main(void)
 	char *f = "world";
 	char *t;
 
-	t = _strstr(s, f);
-	printf("%s\n", t);
+	t = _strsr(s, f);
+	rintf("%s\n", t);
 
 	return (0);
 }
